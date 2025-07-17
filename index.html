@@ -3,12 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Loïc Chantrel | Développeur VBA & Analyste Données</title>
+  <title>Portfolio - Loïc Chantrel</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
@@ -21,119 +19,117 @@
       padding: 4rem 2rem;
       text-align: center;
     }
-    header h1 {
-      font-size: 2.5rem;
-      margin: 0 0 0.5rem 0;
-    }
-    header p {
-      font-size: 1.2rem;
-      margin: 0;
-    }
     section {
       max-width: 1000px;
       margin: auto;
-      padding: 3rem 2rem;
+      padding: 2rem;
     }
-    h2 {
-      border-bottom: 2px solid #2a5298;
-      padding-bottom: 0.3rem;
+    h1, h2 {
       color: #2a5298;
-      margin-bottom: 1.5rem;
     }
-    .project, .about, .skills, .contact {
+    .card {
       background: white;
       border-radius: 12px;
       padding: 1.5rem;
       margin-bottom: 2rem;
       box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-      transition: transform 0.2s;
     }
-    .project:hover {
-      transform: translateY(-4px);
-    }
-    .project h3 {
-      margin-top: 0;
-      color: #1e3c72;
-    }
-    ul {
-      padding-left: 1.2rem;
-    }
-    ul li {
-      margin-bottom: 0.5rem;
-    }
-    .contact a {
-      color: #2a5298;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    .contact a:hover {
-      text-decoration: underline;
-    }
-    .about img {
-      float: right;
-      margin-left: 20px;
-      width: 150px;
-      border-radius: 12px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-    }
-    .project img {
+    ul { padding-left: 1.2rem; }
+    ul li { margin-bottom: 0.5rem; }
+    img {
       width: 100%;
-      margin-bottom: 10px;
+      max-width: 600px;
+      margin-bottom: 20px;
       border-radius: 8px;
-      box-shadow: 0 1px 5px rgba(0,0,0,0.1);
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Loïc Chantrel</h1>
-    <p>Développeur Excel/VBA & Analyste Données</p>
+    <p>Aspirant Responsable Méthode - Futur Ingénieur ICAM</p>
   </header>
-
+  
   <section>
-    <div class="about">
-      <h2>À propos</h2>
-      <img src="profil.jpg" alt="Photo de profil">
-      <p>Passionné par l'automatisation, la gestion de bases de données et l’analyse statistique, j’aide les entreprises à gagner du temps et à fiabiliser leurs process grâce à Excel, VBA, et la data.</p>
+    <div class="card">
+      <h2>Présentation</h2>
+      <p>Technicien supérieur en conception et réalisation de systèmes automatiques, spécialisé dans l’amélioration de process industriels et l’implantation de nouvelles machines. Passionné par le monde de la mécanique, l’aéronautique et le spatial.</p>
     </div>
 
-    <div class="projects">
-      <h2>Projets</h2>
-
-      <div class="project">
-        <h3>📊 Automatisation rapport qualité</h3>
-        <img src="rapport.png" alt="Aperçu rapport qualité">
-        <p>Script VBA pour générer des rapports dimensionnels à partir de mesures Excel.</p>
-      </div>
-
-      <div class="project">
-        <h3>📂 UserForm importation articles</h3>
-        <img src="userform.png" alt="UserForm Excel">
-        <p>Interface intuitive permettant de rechercher, importer et analyser des fichiers réseau.</p>
-      </div>
-
-      <div class="project">
-        <h3>📈 Analyse CPK automatisée</h3>
-        <img src="cpk.png" alt="Dashboard CPK">
-        <p>Calcul dynamique de Cp/Cpk et affichage graphique dans un dashboard Excel.</p>
-      </div>
+    <div class="card">
+      <h2>Objectif</h2>
+      <p>Intégrer l’ICAM Paris Sud pour suivre un cycle ingénieur généraliste avec spécialisation en génie mécanique. À terme, devenir Responsable Méthode pour optimiser les process et diriger des projets industriels innovants.</p>
     </div>
 
-    <div class="skills">
-      <h2>Compétences</h2>
+    <div class="card">
+      <h2>Frise académique</h2>
       <ul>
-        <li>Excel / VBA avancé</li>
-        <li>UserForm & ListView</li>
-        <li>Statistiques qualité (CPK, Cp, IT6/IT8)</li>
-        <li>Traitement de données Excel</li>
-        <li>Automatisation PDF / impression</li>
+        <li>2014–2015 : Débuts académiques</li>
+        <li>2015–2017 : BTS CRSA</li>
+        <li>2019–2020 : Licence Pro CAPPI</li>
+        <li>2022–2024 : BUT GMP (en cours)</li>
       </ul>
     </div>
 
-    <div class="contact">
-      <h2>Contact</h2>
-      <p>Email : loic.excel.vba@example.com</p>
-      <p>LinkedIn : <a href="https://linkedin.com/in/loicchantrel" target="_blank">linkedin.com/in/loicchantrel</a></p>
+    <div class="card">
+      <h2>Frise professionnelle</h2>
+      <ul>
+        <li>2018–2019 : Contrôleur qualité (ventilation modulée)</li>
+        <li>2019–2020 : Agent méthode / électrotechnique (piscine)</li>
+        <li>2020–2022 : SAE projet + expression publique</li>
+        <li>2022–2024 : Apprenti technicien méthode (aéronautique & spatial)</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Projets réalisés</h2>
+      <ul>
+        <li>2017 – Avady Pool : Assemblage automatique sans intervention humaine</li>
+        <li>2020 – EOZ : Automatisation de lignes de production</li>
+        <li>2020 – Expression orale sur un sujet industriel</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>SAE (Situations d’Apprentissage et d’Évaluation)</h2>
+      <ul>
+        <li>2023 : Validation des connaissances techniques (1ère année GMP)</li>
+        <li>2024 : Projet Vanne hydrodynamique autonome (BUT GMP)</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Compétences techniques & humaines</h2>
+      <ul>
+        <li>Rédaction technique, gestion de la qualité, sécurité</li>
+        <li>Anglais technique, communication professionnelle</li>
+        <li>Créativité, leadership, empathie, rigueur</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Activités & centres d’intérêt</h2>
+      <ul>
+        <li>Voyages, séjours linguistiques, découverte culturelle</li>
+        <li>CrossFit et course à pied : esprit d’équipe et endurance</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Galerie d'images extraites du portfolio</h2>
+      <img src="image_1.jpg" alt="image_1">
+      <img src="image_2.jpeg" alt="image_2">
+      <img src="image_3.jpeg" alt="image_3">
+      <img src="image_4.jpg" alt="image_4">
+      <img src="image_5.png" alt="image_5">
+      <img src="image_6.jpeg" alt="image_6">
+      <img src="image_7.jpeg" alt="image_7">
+      <img src="image_8.jpg" alt="image_8">
+    </div>
+
+    <div class="card">
+      <h2>Conclusion</h2>
+      <p>En tant qu’aspirant Responsable Méthode, je m’engage à améliorer continuellement les processus industriels. Mon leadership, ma rigueur et ma passion pour l’excellence opérationnelle me permettront d’accompagner mon équipe vers des performances de haut niveau.</p>
     </div>
   </section>
 </body>
